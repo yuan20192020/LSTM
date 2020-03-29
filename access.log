@@ -1,0 +1,123 @@
+nohup: ignoring input
+2020-03-23 22:33:03.653519: W tensorflow/stream_executor/platform/default/dso_loader.cc:55] Could not load dynamic library 'libnvinfer.so.6'; dlerror: libnvinfer.so.6: cannot open shared object file: No such file or directory
+2020-03-23 22:33:03.653635: W tensorflow/stream_executor/platform/default/dso_loader.cc:55] Could not load dynamic library 'libnvinfer_plugin.so.6'; dlerror: libnvinfer_plugin.so.6: cannot open shared object file: No such file or directory
+2020-03-23 22:33:03.653652: W tensorflow/compiler/tf2tensorrt/utils/py_utils.cc:30] Cannot dlopen some TensorRT libraries. If you would like to use Nvidia GPU with TensorRT, please make sure the missing libraries mentioned above are installed properly.
+2020-03-23 22:33:04.819025: W tensorflow/stream_executor/platform/default/dso_loader.cc:55] Could not load dynamic library 'libcuda.so.1'; dlerror: libcuda.so.1: cannot open shared object file: No such file or directory
+2020-03-23 22:33:04.819075: E tensorflow/stream_executor/cuda/cuda_driver.cc:351] failed call to cuInit: UNKNOWN ERROR (303)
+2020-03-23 22:33:04.819107: I tensorflow/stream_executor/cuda/cuda_diagnostics.cc:156] kernel driver does not appear to be running on this host (iZj6cik2sm4xzs7rhx2o7jZ): /proc/driver/nvidia/version does not exist
+2020-03-23 22:33:04.819367: I tensorflow/core/platform/cpu_feature_guard.cc:142] Your CPU supports instructions that this TensorFlow binary was not compiled to use: AVX2 FMA
+2020-03-23 22:33:04.827186: I tensorflow/core/platform/profile_utils/cpu_utils.cc:94] CPU Frequency: 2499995000 Hz
+2020-03-23 22:33:04.827354: I tensorflow/compiler/xla/service/service.cc:168] XLA service 0x55b4b8059040 initialized for platform Host (this does not guarantee that XLA will be used). Devices:
+2020-03-23 22:33:04.827376: I tensorflow/compiler/xla/service/service.cc:176]   StreamExecutor device (0): Host, Default Version
+his thou art my say,
+  To see to wrete; by whatee, and my will,
+  Thou days the eyes as thy wonlow'd and cure,
+  Being for nothing, having with mine eye doth day,
+When heavy looks on thy pair painted bear.
+Thou art all the from more doth daye can sink,
+So dost those eresh of great his in their show,
+To make more brest, by me for my mistrifill
+The world not speed out days words of such fair,
+And so stay thy back, so dead speed, bur thee,
+Who live thou art the sweet some intertion.
+Thy love with s
+ * Serving Flask app "view" (lazy loading)
+ * Environment: production
+   WARNING: This is a development server. Do not use it in a production deployment.
+   Use a production WSGI server instead.
+ * Debug mode: on
+Using TensorFlow backend.
+ * Running on http://0.0.0.0:5000/ (Press CTRL+C to quit)
+ * Restarting with inotify reloader
+2020-03-23 22:33:10.691414: W tensorflow/stream_executor/platform/default/dso_loader.cc:55] Could not load dynamic library 'libnvinfer.so.6'; dlerror: libnvinfer.so.6: cannot open shared object file: No such file or directory
+2020-03-23 22:33:10.691518: W tensorflow/stream_executor/platform/default/dso_loader.cc:55] Could not load dynamic library 'libnvinfer_plugin.so.6'; dlerror: libnvinfer_plugin.so.6: cannot open shared object file: No such file or directory
+2020-03-23 22:33:10.691533: W tensorflow/compiler/tf2tensorrt/utils/py_utils.cc:30] Cannot dlopen some TensorRT libraries. If you would like to use Nvidia GPU with TensorRT, please make sure the missing libraries mentioned above are installed properly.
+2020-03-23 22:33:11.784448: W tensorflow/stream_executor/platform/default/dso_loader.cc:55] Could not load dynamic library 'libcuda.so.1'; dlerror: libcuda.so.1: cannot open shared object file: No such file or directory
+2020-03-23 22:33:11.784503: E tensorflow/stream_executor/cuda/cuda_driver.cc:351] failed call to cuInit: UNKNOWN ERROR (303)
+2020-03-23 22:33:11.784531: I tensorflow/stream_executor/cuda/cuda_diagnostics.cc:156] kernel driver does not appear to be running on this host (iZj6cik2sm4xzs7rhx2o7jZ): /proc/driver/nvidia/version does not exist
+2020-03-23 22:33:11.784770: I tensorflow/core/platform/cpu_feature_guard.cc:142] Your CPU supports instructions that this TensorFlow binary was not compiled to use: AVX2 FMA
+2020-03-23 22:33:11.792777: I tensorflow/core/platform/profile_utils/cpu_utils.cc:94] CPU Frequency: 2499995000 Hz
+2020-03-23 22:33:11.792925: I tensorflow/compiler/xla/service/service.cc:168] XLA service 0x55a309a13540 initialized for platform Host (this does not guarantee that XLA will be used). Devices:
+2020-03-23 22:33:11.792941: I tensorflow/compiler/xla/service/service.cc:176]   StreamExecutor device (0): Host, Default Version
+Using TensorFlow backend.
+ * Debugger is active!
+ * Debugger PIN: 243-401-175
+27.17.246.179 - - [23/Mar/2020 22:33:16] "[37mGET / HTTP/1.1[0m" 200 -
+27.17.246.179 - - [23/Mar/2020 22:33:16] "[37mGET /static/cover.css HTTP/1.1[0m" 200 -
+27.17.246.179 - - [23/Mar/2020 22:33:17] "[37mGET /static/shake_splash.png HTTP/1.1[0m" 200 -
+/usr/local/src/LSTMpro/view.py:24: FlaskWTFDeprecationWarning: "flask_wtf.Form" has been renamed to "FlaskForm" and will be removed in 1.0.
+  sonnet_form = SonnetForm()
+27.17.246.179 - - [23/Mar/2020 22:33:19] "[37mGET /write HTTP/1.1[0m" 200 -
+92.7.188.195 - - [23/Mar/2020 22:35:20] "[37mGET / HTTP/1.1[0m" 200 -
+92.7.188.195 - - [23/Mar/2020 22:35:21] "[37mGET /static/cover.css HTTP/1.1[0m" 200 -
+92.7.188.195 - - [23/Mar/2020 22:35:22] "[37mGET /static/shake_splash.png HTTP/1.1[0m" 200 -
+/usr/local/src/LSTMpro/view.py:24: FlaskWTFDeprecationWarning: "flask_wtf.Form" has been renamed to "FlaskForm" and will be removed in 1.0.
+  sonnet_form = SonnetForm()
+92.7.188.195 - - [23/Mar/2020 22:35:24] "[37mGET /write HTTP/1.1[0m" 200 -
+92.7.188.195 - - [23/Mar/2020 22:35:25] "[37mGET /static/dist/spin.min.js HTTP/1.1[0m" 200 -
+92.7.188.195 - - [23/Mar/2020 22:35:25] "[37mGET /static/main.css HTTP/1.1[0m" 200 -
+92.7.188.195 - - [23/Mar/2020 22:35:25] "[37mGET /static/dist/ladda-themeless.min.css HTTP/1.1[0m" 200 -
+92.7.188.195 - - [23/Mar/2020 22:35:25] "[37mGET /static/dist/ladda.min.js HTTP/1.1[0m" 200 -
+92.7.188.195 - - [23/Mar/2020 22:35:25] "[37mGET /static/shake-small.png HTTP/1.1[0m" 200 -
+101.91.60.11 - - [23/Mar/2020 22:36:23] "[37mGET / HTTP/1.1[0m" 200 -
+61.151.178.166 - - [23/Mar/2020 22:37:09] "[37mGET / HTTP/1.1[0m" 200 -
+61.151.178.175 - - [23/Mar/2020 22:37:09] "[37mGET / HTTP/1.1[0m" 200 -
+61.151.178.166 - - [23/Mar/2020 22:37:10] "[37mGET /static/cover.css HTTP/1.1[0m" 200 -
+61.151.178.175 - - [23/Mar/2020 22:37:11] "[37mGET /static/cover.css HTTP/1.1[0m" 200 -
+92.7.188.195 - - [23/Mar/2020 22:37:17] "[37mGET / HTTP/1.1[0m" 200 -
+92.7.188.195 - - [23/Mar/2020 22:37:18] "[37mGET /static/shake_splash.png HTTP/1.1[0m" 200 -
+/usr/local/src/LSTMpro/view.py:24: FlaskWTFDeprecationWarning: "flask_wtf.Form" has been renamed to "FlaskForm" and will be removed in 1.0.
+  sonnet_form = SonnetForm()
+61.151.178.197 - - [23/Mar/2020 22:37:36] "[37mGET /write HTTP/1.1[0m" 200 -
+61.151.178.197 - - [23/Mar/2020 22:37:36] "[37mGET /static/dist/ladda-themeless.min.css HTTP/1.1[0m" 200 -
+61.151.178.197 - - [23/Mar/2020 22:37:36] "[37mGET /static/main.css HTTP/1.1[0m" 200 -
+61.151.178.197 - - [23/Mar/2020 22:37:36] "[37mGET /static/dist/ladda.min.js HTTP/1.1[0m" 200 -
+61.151.178.197 - - [23/Mar/2020 22:37:37] "[37mGET /static/dist/spin.min.js HTTP/1.1[0m" 200 -
+61.129.6.251 - - [23/Mar/2020 22:37:41] "[37mGET / HTTP/1.1[0m" 200 -
+61.151.178.197 - - [23/Mar/2020 22:37:41] "[37mGET /static/dist/spin.min.js HTTP/1.1[0m" 200 -
+61.151.178.197 - - [23/Mar/2020 22:37:42] "[37mGET /static/dist/ladda-themeless.min.css HTTP/1.1[0m" 200 -
+61.151.178.197 - - [23/Mar/2020 22:37:42] "[37mGET /static/dist/ladda.min.js HTTP/1.1[0m" 200 -
+61.129.6.251 - - [23/Mar/2020 22:37:42] "[37mGET /static/cover.css HTTP/1.1[0m" 200 -
+61.151.178.197 - - [23/Mar/2020 22:37:42] "[37mGET /static/shake-small.png HTTP/1.1[0m" 200 -
+61.151.178.197 - - [23/Mar/2020 22:37:43] "[37mGET /static/main.css HTTP/1.1[0m" 200 -
+106.14.104.214 - - [24/Mar/2020 03:04:59] code 400, message Bad request version ('\x00\x01\x97|\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00')
+106.14.104.214 - - [24/Mar/2020 03:04:59] "[35m[1m  (rþ          |                    [0m" HTTPStatus.BAD_REQUEST -
+83.97.20.36 - - [24/Mar/2020 03:11:18] code 400, message Bad request version ('0.12\x00')
+83.97.20.36 - - [24/Mar/2020 03:11:18] "[35m[1m   ¤ÿSMBr    @              @     PC NETWORK PROGRAM 1.0 MICROSOFT NETWORKS 1.03 MICROSOFT NETWORKS 3.0 LANMAN1.0 LM1.2X002 Samba NT LANMAN 1.0 NT LM 0.12 [0m" HTTPStatus.BAD_REQUEST -
+83.97.20.36 - - [24/Mar/2020 03:11:19] "[37mGET / HTTP/1.1[0m" 200 -
+39.107.14.208 - - [24/Mar/2020 03:48:46] "[37mGET / HTTP/1.0[0m" 200 -
+119.23.174.205 - - [24/Mar/2020 08:24:40] "[37mGET / HTTP/1.0[0m" 200 -
+/usr/local/src/LSTMpro/view.py:24: FlaskWTFDeprecationWarning: "flask_wtf.Form" has been renamed to "FlaskForm" and will be removed in 1.0.
+  sonnet_form = SonnetForm()
+27.17.246.179 - - [24/Mar/2020 09:49:54] "[37mGET /write HTTP/1.1[0m" 200 -
+47.93.180.168 - - [24/Mar/2020 10:15:26] code 400, message Bad request version ('\x00\x01\x97|\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00')
+47.93.180.168 - - [24/Mar/2020 10:15:26] "[35m[1m  (rþ          |                    [0m" HTTPStatus.BAD_REQUEST -
+47.93.180.168 - - [24/Mar/2020 15:25:19] code 400, message Bad request version ('\x00\x01\x97|\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00')
+47.93.180.168 - - [24/Mar/2020 15:25:19] "[35m[1m  (rþ          |                    [0m" HTTPStatus.BAD_REQUEST -
+47.100.64.9 - - [24/Mar/2020 15:46:56] "[37mGET / HTTP/1.0[0m" 200 -
+120.78.231.236 - - [24/Mar/2020 22:11:29] "[37mGET / HTTP/1.0[0m" 200 -
+209.17.96.66 - - [24/Mar/2020 22:23:41] "[37mGET / HTTP/1.1[0m" 200 -
+185.202.2.149 - - [24/Mar/2020 22:55:53] code 400, message Bad HTTP/0.9 request type ('\x03\x00\x00/*à\x00\x00\x00\x00\x00Cookie:')
+185.202.2.149 - - [24/Mar/2020 22:55:53] "[35m[1m  /*à     Cookie: mstshash=Administr[0m" HTTPStatus.BAD_REQUEST -
+209.17.96.82 - - [25/Mar/2020 00:41:21] "[37mGET / HTTP/1.1[0m" 200 -
+223.71.167.163 - - [25/Mar/2020 01:12:23] "[37mGET / HTTP/1.1[0m" 200 -
+83.97.20.36 - - [25/Mar/2020 02:07:33] code 400, message Bad request version ('0.12\x00')
+83.97.20.36 - - [25/Mar/2020 02:07:33] "[35m[1m   ¤ÿSMBr    @              @     PC NETWORK PROGRAM 1.0 MICROSOFT NETWORKS 1.03 MICROSOFT NETWORKS 3.0 LANMAN1.0 LM1.2X002 Samba NT LANMAN 1.0 NT LM 0.12 [0m" HTTPStatus.BAD_REQUEST -
+83.97.20.36 - - [25/Mar/2020 02:07:33] "[37mGET / HTTP/1.1[0m" 200 -
+106.15.52.246 - - [25/Mar/2020 10:02:32] code 400, message Bad request version ('\x00\x01\x97|\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00')
+106.15.52.246 - - [25/Mar/2020 10:02:32] "[35m[1m  (rþ          |                    [0m" HTTPStatus.BAD_REQUEST -
+101.89.29.78 - - [25/Mar/2020 10:48:34] "[37mGET / HTTP/1.1[0m" 200 -
+185.173.35.33 - - [25/Mar/2020 11:22:50] "[37mGET / HTTP/1.0[0m" 200 -
+101.133.224.19 - - [25/Mar/2020 12:00:42] "[37mGET / HTTP/1.0[0m" 200 -
+101.133.224.19 - - [25/Mar/2020 12:02:01] "[33mGET /nmaplowercheck1585108919 HTTP/1.1[0m" 404 -
+101.133.224.19 - - [25/Mar/2020 12:02:01] "[33mGET /HNAP1 HTTP/1.1[0m" 404 -
+101.133.224.19 - - [25/Mar/2020 12:02:01] "[33mGET /evox/about HTTP/1.1[0m" 404 -
+101.133.224.19 - - [25/Mar/2020 12:02:02] "[37mGET / HTTP/1.0[0m" 200 -
+101.133.224.19 - - [25/Mar/2020 12:02:11] "[33mPOST /sdk HTTP/1.1[0m" 404 -
+101.133.224.19 - - [25/Mar/2020 12:02:11] code 400, message Bad request version ("¹~\x94ìïlrs=\\à«pH©\x96z/N®\x19t'e\x1bö1òudc\x00\x9c\x13\x02\x13\x03\x13\x01\x003\x009\x005\x00/À,À0\x00£\x00\x9fÌ©Ì¨ÌªÀ¯À\xadÀ£À\x9fÀ]ÀaÀWÀSÀ+À/\x00¢\x00\x9eÀ®À¬À¢À\x9eÀ\\À`ÀVÀRÀ$À(\x00k\x00jÀsÀw\x00Ä\x00ÃÀ#À'\x00g\x00@ÀrÀv\x00¾\x00½À")
+101.133.224.19 - - [25/Mar/2020 12:02:11] "[35m[1m  üìp\>´bå©HÞáÌeÄ>¸ªüSfÖ8Û2g  ¹~ìïlrs=\à«pH©z/N®t'eö1òudc  3 9 5 /À,À0 £ Ì©Ì¨ÌªÀ¯À­À£ÀÀ]ÀaÀWÀSÀ+À/ ¢ À®À¬À¢ÀÀ\À`ÀVÀRÀ$À( k jÀsÀw Ä ÃÀ#À' g @ÀrÀv ¾ ½À[0m" HTTPStatus.BAD_REQUEST -
+101.133.224.19 - - [25/Mar/2020 12:02:24] "[37mGET / HTTP/1.0[0m" 200 -
+101.133.224.19 - - [25/Mar/2020 12:02:24] "[37mGET / HTTP/1.1[0m" 200 -
+106.15.76.92 - - [25/Mar/2020 12:39:39] code 400, message Bad request version ('\x00\x01\x97|\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00')
+106.15.76.92 - - [25/Mar/2020 12:39:39] "[35m[1m  (rþ          |                    [0m" HTTPStatus.BAD_REQUEST -
+47.100.130.114 - - [25/Mar/2020 14:46:04] "[37mGET / HTTP/1.0[0m" 200 -
